@@ -1,0 +1,84 @@
+.jokes {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.jokes__body {
+    text-align: center;
+    font-family: 'Bradley Hand ITC Std Bold';
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media screen and (max-width:843px) {
+    .jokes__body {
+        font-size: 15px;
+    }
+}
+
+.jokes__save-button {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url('../../images/black_button.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.jokes__save-button_marker {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url('../../images/green_button.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.jokes__save-button_marker:active, .jokes__save-button_marker:focus {
+    outline: none;
+}
+
+.jokes__save-button_marker:hover {
+    opacity: .8;
+}
+
+.jokes__save-button:active, .jokes__save-button:focus {
+    outline: none;
+}
+
+.jokes__save-button:hover {
+    opacity: .8;
+}
+
+.jokes__delete-button {
+    width: 38px;
+    height: 48px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-image: url('../../images/close_icon.png');
+    background-color: transparent;
+    border: none;
+    outline: 0
+}
+
+.jokes__delete-button:active, .jokes__delete-button:focus {
+    outline: none;
+}
+
+.jokes__delete-button:hover {
+    opacity: .8;
+}

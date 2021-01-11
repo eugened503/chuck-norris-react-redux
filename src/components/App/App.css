@@ -1,0 +1,10 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+  max-width: 100%;
+  background-color: #efefef;
+  margin: 0 auto;
+  min-height: 100vh;
+  justify-content: space-between;
+  background-size: cover;
+}

@@ -1,0 +1,177 @@
+.main {
+    max-width: 1152px;
+    background-color: white;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding-top: 15px
+}
+
+@media screen and (max-width:509px) {
+    .main {
+        padding-top: 0;
+    }
+}
+
+.main_color {
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+    background-size: 20px 20px;
+    background-position: center center;
+}
+
+.main__buttons {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width:509px) {
+    .main__buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.main__buttons_width {
+    margin: 0 auto;
+    max-width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main__buttons-item {
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 33%;
+    min-height: 40px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    padding: 1px 5px;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+    background-color: #e0e0e0;
+    border: 1px solid #a1a1a1;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms;
+}
+
+@media screen and (max-width:509px) {
+    .main__buttons-item {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.main__buttons-item_width {
+    width: 42.5%;
+    min-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    min-height: 20px;
+}
+
+@media screen and (max-width:550px) {
+    .main__buttons-item_width {
+        margin: 25px 0 0 25px;
+    }
+}
+
+.main__buttons-item_none {
+    display: none;
+}
+
+.main__buttons-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:509px) {
+    .main__buttons-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+    }
+}
+
+.main__buttons-item_mod {
+    padding: 10px 0;
+    min-height: 20px;
+}
+
+.main__buttons-item:hover {
+    box-shadow: 7px 7px 7px rgba(37, 37, 37, 0.2);
+    color: #252525;
+}
+
+.main__load {
+    max-width: 170px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+@media screen and (max-width:509px) {
+    .main__load {
+        justify-content: start;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .main__load-title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:843px) {
+    .main__load-title {
+        font-size: 14px;
+        font-weight: bold;
+        max-width: 85px;
+    }
+}
+
+@media screen and (max-width:509px) {
+    .main__load-title {
+        font-size: 14px;
+        font-weight: bold;
+        max-width: 71px;
+    }
+}
+
+@media screen and (min-width: 510px) {
+    .main__load-title_margin {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .main__load-subtitle {
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:843px) {
+    .main__load-subtitle {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 33px 0 0 0;
+    }
+}
+
+@media screen and (max-width:843px) {
+    .main__buttons-item {
+        font-size: 13px;
+    }
+}

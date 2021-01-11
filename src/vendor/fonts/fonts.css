@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Bradley Hand ITC Std Bold';
+    src: url('../fonts/BradleyHandITCStd-Bold.woff') format('woff');
+    font-weight: bold;
+}

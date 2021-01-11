@@ -1,0 +1,45 @@
+.header {
+    min-height: 233px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    max-width: 1152px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1168px) {
+    .header {
+        min-height: 230px;
+        background-image: url(./../../images/chuck_2.jpg);
+    }
+}
+
+@media screen and (min-width: 1030px) and (max-width:1167px) {
+    .header {
+        min-height: 200px;
+        background-image: url(./../../images/chuck_3.jpg);
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width:1030px) {
+    .header {
+        min-height: 180px;
+        background-image: url(./../../images/chuck_4.jpg);
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width:819px) {
+    .header {
+        min-height: 100px;
+        background-image: url(./../../images/chuck_5.jpg);
+    }
+}
+
+@media screen and (max-width:574px) {
+    .header {
+        min-height: 100px;
+        background-image: url(./../../images/chuck_6.jpg);
+    }
+}
